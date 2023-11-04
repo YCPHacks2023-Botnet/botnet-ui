@@ -18,6 +18,8 @@
   width: 300px;
   margin: 0 auto; 
   padding: 20px; 
+  margin-left: 5px;
+  margin-right: 5px; 
   background-color: pink;
 }
 i {

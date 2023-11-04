@@ -16,7 +16,9 @@
 
 .details {
   width: 100px;
-  margin: 0 auto; 
+  margin: 0 auto;
+  margin-left: 5px;
+  margin-right: 5px; 
   padding: 20px; 
   background-color: lightblue;
 }
