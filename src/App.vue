@@ -6,6 +6,7 @@ import Count from './components/bottom/count/Count.vue'
 import Params from './components/bottom/params/Params.vue'
 import Queue from './components/bottom/queue/Queue.vue'
 import TaskMenu from './components/bottom/tasks/TaskMenu.vue'
+import BotTermOutput from './components/botslistinfosection/BotTermOutput.vue'
 </script>
 
 <template>
@@ -20,9 +21,15 @@ import TaskMenu from './components/bottom/tasks/TaskMenu.vue'
     <BotsList></BotsList>
   </div>
 
+  <!-- <div class="details-terms">
+    <BotTermOutput />
+  </div> -->
+
   <div class="flex-container">
-    <Count />
-    <TaskMenu />
+    <div>
+      <Count />
+      <TaskMenu />
+    </div>
     <Params />
     <Queue />
   </div>
@@ -31,17 +38,31 @@ import TaskMenu from './components/bottom/tasks/TaskMenu.vue'
 
 <style scoped>
 .botlistsection {
-  max-width: 40%;
-  min-width: 40%;
+  max-width: 30%;
+  min-width: 30%;
   margin-left: 1%;
+  max-height: 100%;
+  min-height: 100%;
+}
+.details-terms {
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: flex-end;
+  margin: 1%;
+  height: 60%;
 }
 .flex-container{
   position: absolute;
   bottom: 0;
+  right: 0;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: right;
   align-items: flex-end;
-  margin: 20px;
+  margin: 1%;
+  height: 30%;
 }
 </style>
