@@ -12,5 +12,7 @@
   border: 3px solid black;
   color: white;
   font-size: 20px;
+  width: 150px;
+  height: 150px;
 }
 </style>

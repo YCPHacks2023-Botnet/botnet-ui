@@ -10,10 +10,22 @@
 </template>
 
 <style scoped>
+.item {
+ 
+}
+
 .details {
-  width: 100px;
+  width: 25%;
+  height: 30%;
   margin: 0 auto; 
   padding: 20px; 
-  background-color: lightblue;
+  background-color: green;
+}
+i {
+  
+}
+
+h3 {
+  
 }
 </style>
