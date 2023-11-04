@@ -39,14 +39,16 @@ import BotTermOutput from './components/botslistinfosection/BotTermOutput.vue'
 <style scoped>
 .listofbots {
   margin: 1% 2% 0% 2%;
-  width: 35%;
+  width: 20%;
 }
 .botlistsection {
-  width: 35%;
+  width: 20%;
   margin: 1% 2%;
-  max-height: 50%;
-  min-height: 50%;
-  border: 2px solid white;
+  background-color: rgba(0, 8, 42, 0.612);
+  padding: 1%;
+  max-height: 80%;
+  min-height: 80%;
+  border: 2px dotted white;
   overflow-y: auto;
 }
 .details-terms {

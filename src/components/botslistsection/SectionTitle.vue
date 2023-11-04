@@ -14,7 +14,7 @@ defineProps({
 
 <style scoped>
 h3 {
-  font-size: 30px;
+  font-size: 26px;
   font-weight: bold;
   color: white;
   text-align: center;
