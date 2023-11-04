@@ -2,6 +2,10 @@
 import Header from './components/Header.vue'
 import BotsList from './components/BotsList.vue'
 import SectionTitle from './components/SectionTitle.vue'
+import Count from './components/Count.vue'
+import Params from './components/Params.vue'
+import Queue from './components/Queue.vue'
+import TaskMenu from './components/TaskMenu.vue'
 </script>
 
 <template>
@@ -16,6 +20,13 @@ import SectionTitle from './components/SectionTitle.vue'
     <BotsList></BotsList>
   </div>
 
+  <div class="flex-container">
+    <Count />
+    <TaskMenu />
+    <Params />
+    <Queue />
+  </div>
+
 </template>
 
 <style scoped>
@@ -23,5 +34,12 @@ import SectionTitle from './components/SectionTitle.vue'
   max-width: 40%;
   min-width: 40%;
   margin-left: 1%;
+}
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  margin: 20px;
 }
 </style>
