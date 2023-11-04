@@ -21,10 +21,8 @@ import BotTermOutput from './components/botslistinfosection/BotTermOutput.vue'
     <BotsList></BotsList>
   </div>
 
-  <!-- <div class="details-terms">
-    <BotTermOutput />
-  </div> -->
 
+<!-- fix this -->
   <div class="flex-container">
     <div>
       <Count />
@@ -39,7 +37,7 @@ import BotTermOutput from './components/botslistinfosection/BotTermOutput.vue'
 <style scoped>
 .listofbots {
   margin: 1% 2% 0% 2%;
-  width: 20%;
+  width: 35%;
 }
 .botlistsection {
   width: 20%;
@@ -71,5 +69,6 @@ import BotTermOutput from './components/botslistinfosection/BotTermOutput.vue'
   align-items: flex-end;
   margin: 1%;
   height: 30%;
+  border: 2px solid white;
 }
 </style>
