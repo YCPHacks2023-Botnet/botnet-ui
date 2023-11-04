@@ -10,23 +10,12 @@
 </template>
 
 <style scoped>
-.item {
- 
-}
-
 .details {
-  width: 100px;
+  width: 300px;
   margin: 0 auto; 
   padding: 20px; 
   margin-left: 5px;
   margin-right: 5px; 
-  background-color: lightblue;
-}
-i {
-  
-}
-
-h3 {
-  
+  background-color: pink;
 }
 </style>

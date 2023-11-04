@@ -1,5 +1,5 @@
 <script setup>
-import CountInformation from './CountInformation.vue'
+import CountInformation from '../../bottom/count/CountInformation.vue'
 </script>
 
 <template>

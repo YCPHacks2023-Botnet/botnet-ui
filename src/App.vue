@@ -2,10 +2,10 @@
 import Header from './components/general/Header.vue'
 import BotsList from './components/botslistsection/BotsList.vue'
 import SectionTitle from './components/botslistsection/SectionTitle.vue'
-import Count from './components/Count.vue'
-import Params from './components/Params.vue'
-import Queue from './components/Queue.vue'
-import TaskMenu from './components/TaskMenu.vue'
+import Count from './components/bottom/count/Count.vue'
+import Params from './components/bottom/params/Params.vue'
+import Queue from './components/bottom/queue/Queue.vue'
+import TaskMenu from './components/bottom/tasks/TaskMenu.vue'
 </script>
 
 <template>
