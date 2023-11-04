@@ -10,7 +10,9 @@
   "dependencies": {
     "bootstrap": "^5.3.2",
     "bootstrap-vue": "^2.23.1",
-    "vue": "^3.3.7"
+    "portal-vue": "^3.0.0",
+    "vue": "^3.2.36",
+    "vue3-bootstrap": "^1.0.0"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.4.0",
