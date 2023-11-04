@@ -1,7 +1,7 @@
 <script setup>
-import Header from './components/Header.vue'
-import BotsList from './components/BotsList.vue'
-import SectionTitle from './components/SectionTitle.vue'
+import Header from './components/general/Header.vue'
+import BotsList from './components/botslistsection/BotsList.vue'
+import SectionTitle from './components/botslistsection/SectionTitle.vue'
 </script>
 
 <template>
@@ -11,7 +11,7 @@ import SectionTitle from './components/SectionTitle.vue'
   </div>
 
   <!-- Main content section -->
-  <div class="LeftSide">
+  <div class="botlistsection">
     <SectionTitle msg="List of Connected Bots"/>
     <BotsList></BotsList>
   </div>
@@ -19,7 +19,7 @@ import SectionTitle from './components/SectionTitle.vue'
 </template>
 
 <style scoped>
-.LeftSide {
+.botlistsection {
   max-width: 40%;
   min-width: 40%;
   margin-left: 1%;
