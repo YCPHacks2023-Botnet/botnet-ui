@@ -15,9 +15,9 @@ import BotTermOutput from './components/botslistinfosection/BotTermOutput.vue'
     <Header msg="Dotnetbotnet Overview" />
   </div>
 
+  <SectionTitle class="listofbots" msg="List of Connected Bots"/>
   <!-- Main content section -->
   <div class="botlistsection">
-    <SectionTitle msg="List of Connected Bots"/>
     <BotsList></BotsList>
   </div>
 
@@ -37,12 +37,17 @@ import BotTermOutput from './components/botslistinfosection/BotTermOutput.vue'
 </template>
 
 <style scoped>
+.listofbots {
+  margin: 1% 2% 0% 2%;
+  width: 35%;
+}
 .botlistsection {
-  max-width: 30%;
-  min-width: 30%;
-  margin-left: 1%;
-  max-height: 100%;
-  min-height: 100%;
+  width: 35%;
+  margin: 1% 2%;
+  max-height: 50%;
+  min-height: 50%;
+  border: 2px solid white;
+  overflow-y: auto;
 }
 .details-terms {
   position: absolute;

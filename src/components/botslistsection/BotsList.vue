@@ -3,52 +3,187 @@ import BotName from './BotName.vue'
 </script>
 
 <!-- This will create the table to pupulate with selectable BotName blocks -->
-<!-- shitty placeholder for the time to get the rest of the page laid out -->
 <template>
-  <div class="container">
-    <table>
-      <tr>
-        <td>
-          <!-- an instance of a selectable bot name block-->
-          <BotName>
-            <template #Name>From JSON</template>
-          </BotName>
-        </td>
-        <td>
-          <!-- an instance of a selectable bot name block-->
-          <BotName>
-            <template #Name>From JSON</template>
-          </BotName>
-        </td>
-        <td>
-          <!-- an instance of a selectable bot name block-->
-          <BotName>
-            <template #Name>From JSON</template>
-          </BotName>
-        </td> 
-      </tr>
-    </table>
+  <!-- row of bot buttons 1 -->
+  <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+    <!-- Bot Button 1 -->
+    <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+    <label class="btn btn-outline-success" for="btnradio1">
+      <BotName>
+        <template #first>Firstname</template>
+        <template #middle>MiddleName</template>
+        <template #last>Lastname</template>
+      </BotName>
+    </label>
+
+    <!-- Bot Button 2 -->
+    <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off" checked>
+    <label class="btn btn-outline-success" for="btnradio2">
+      <BotName>
+        <template #first>Firstname</template>
+        <template #middle>MiddleName</template>
+        <template #last>Lastname</template>
+      </BotName>
+    </label>
+
+    <!-- Bot Button 3 -->
+    <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off" checked>
+    <label class="btn btn-outline-success" for="btnradio3">
+      <BotName>
+        <template #first>Firstname</template>
+        <template #middle>MiddleName</template>
+        <template #last>Lastname</template>
+      </BotName>
+    </label>
+
+    <!-- Bot Button 4 -->
+    <input type="radio" class="btn-check" name="btnradio" id="btnradio4" autocomplete="off" checked>
+    <label class="btn btn-outline-success" for="btnradio4">
+      <BotName>
+        <template #first>Firstname</template>
+        <template #middle>MiddleName</template>
+        <template #last>Lastname</template>
+      </BotName>
+    </label>
+  </div>
+  <!-- row of bot buttons 2 -->
+  <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+    <!-- Bot Button 1 -->
+    <input type="radio" class="btn-check" name="btnradio" id="btnradio5" autocomplete="off" checked>
+    <label class="btn btn-outline-success" for="btnradio5">
+      <BotName>
+        <template #first>Firstname</template>
+        <template #middle>MiddleName</template>
+        <template #last>Lastname</template>
+      </BotName>
+    </label>
+
+    <!-- Bot Button 2 -->
+    <input type="radio" class="btn-check" name="btnradio" id="btnradio6" autocomplete="off" checked>
+    <label class="btn btn-outline-success" for="btnradio6">
+      <BotName>
+        <template #first>Firstname</template>
+        <template #middle>MiddleName</template>
+        <template #last>Lastname</template>
+      </BotName>
+    </label>
+
+    <!-- Bot Button 3 -->
+    <input type="radio" class="btn-check" name="btnradio" id="btnradio7" autocomplete="off" checked>
+    <label class="btn btn-outline-success" for="btnradio7">
+      <BotName>
+        <template #first>Firstname</template>
+        <template #middle>MiddleName</template>
+        <template #last>Lastname</template>
+      </BotName>
+    </label>
+
+    <!-- Bot Button 4 -->
+    <input type="radio" class="btn-check" name="btnradio" id="btnradio8" autocomplete="off" checked>
+    <label class="btn btn-outline-success" for="btnradio8">
+      <BotName>
+        <template #first>Firstname</template>
+        <template #middle>MiddleName</template>
+        <template #last>Lastname</template>
+      </BotName>
+    </label>
+  </div>
+  <!-- row of bot buttons 2 -->
+  <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+    <!-- Bot Button 1 -->
+    <input type="radio" class="btn-check" name="btnradio" id="btnradio5" autocomplete="off" checked>
+    <label class="btn btn-outline-success" for="btnradio5">
+      <BotName>
+        <template #first>Firstname</template>
+        <template #middle>MiddleName</template>
+        <template #last>Lastname</template>
+      </BotName>
+    </label>
+
+    <!-- Bot Button 2 -->
+    <input type="radio" class="btn-check" name="btnradio" id="btnradio6" autocomplete="off" checked>
+    <label class="btn btn-outline-success" for="btnradio6">
+      <BotName>
+        <template #first>Firstname</template>
+        <template #middle>MiddleName</template>
+        <template #last>Lastname</template>
+      </BotName>
+    </label>
+
+    <!-- Bot Button 3 -->
+    <input type="radio" class="btn-check" name="btnradio" id="btnradio7" autocomplete="off" checked>
+    <label class="btn btn-outline-success" for="btnradio7">
+      <BotName>
+        <template #first>Firstname</template>
+        <template #middle>MiddleName</template>
+        <template #last>Lastname</template>
+      </BotName>
+    </label>
+
+    <!-- Bot Button 4 -->
+    <input type="radio" class="btn-check" name="btnradio" id="btnradio8" autocomplete="off" checked>
+    <label class="btn btn-outline-success" for="btnradio8">
+      <BotName>
+        <template #first>Firstname</template>
+        <template #middle>MiddleName</template>
+        <template #last>Lastname</template>
+      </BotName>
+    </label>
+  </div>
+  <!-- row of bot buttons 2 -->
+  <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+    <!-- Bot Button 1 -->
+    <input type="radio" class="btn-check" name="btnradio" id="btnradio5" autocomplete="off" checked>
+    <label class="btn btn-outline-success" for="btnradio5">
+      <BotName>
+        <template #first>Firstname</template>
+        <template #middle>MiddleName</template>
+        <template #last>Lastname</template>
+      </BotName>
+    </label>
+
+    <!-- Bot Button 2 -->
+    <input type="radio" class="btn-check" name="btnradio" id="btnradio6" autocomplete="off" checked>
+    <label class="btn btn-outline-success" for="btnradio6">
+      <BotName>
+        <template #first>Firstname</template>
+        <template #middle>MiddleName</template>
+        <template #last>Lastname</template>
+      </BotName>
+    </label>
+
+    <!-- Bot Button 3 -->
+    <input type="radio" class="btn-check" name="btnradio" id="btnradio7" autocomplete="off" checked>
+    <label class="btn btn-outline-success" for="btnradio7">
+      <BotName>
+        <template #first>Firstname</template>
+        <template #middle>MiddleName</template>
+        <template #last>Lastname</template>
+      </BotName>
+    </label>
+
+    <!-- Bot Button 4 -->
+    <input type="radio" class="btn-check" name="btnradio" id="btnradio8" autocomplete="off" checked>
+    <label class="btn btn-outline-success" for="btnradio8">
+      <BotName>
+        <template #first>Firstname</template>
+        <template #middle>MiddleName</template>
+        <template #last>Lastname</template>
+      </BotName>
+    </label>
   </div>
 </template>
 
 <style scoped>
-.container {
-  max-height: 50%;
-  min-height: 50%;
-  margin-top: 0%;
-  margin-bottom: auto;
-  max-width: 100%;
-  min-width: 100%;
+
+.btn-group {
+  margin: auto;
+  width: 50%;
+  margin: 2% 5%;
 }
-table {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 1%;
-  border: 2px solid white;
-  max-width: 100%;
-  min-width: 100%;
-}
-thead, tr, tbody {
-  display:block;
+.btn-outline-success {
+  color: white;
+  background-color: black;
+  border: 2px solid;
 }
 </style>

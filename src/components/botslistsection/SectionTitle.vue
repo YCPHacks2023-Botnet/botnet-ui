@@ -14,10 +14,9 @@ defineProps({
 
 <style scoped>
 h3 {
-  font-size: 24px;
-  font-weight: none;
-  color: orange;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
   text-align: center;
-  border: 2px solid white;
 }
 </style>
