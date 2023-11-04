@@ -36,6 +36,8 @@ import TaskMenu from './components/TaskMenu.vue'
   margin-left: 1%;
 }
 .flex-container{
+  position: absolute;
+  bottom: 0;
   display: flex;
   flex-direction: row;
   justify-content: center;
