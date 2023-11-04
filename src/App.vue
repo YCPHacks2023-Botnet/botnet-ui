@@ -1,42 +1,27 @@
 <script setup>
-import Index from './components/Index.vue'
+import Header from './components/Header.vue'
 import BotsList from './components/BotsList.vue'
+import SectionTitle from './components/SectionTitle.vue'
 </script>
 
 <template>
-  <header>
-    <img alt="Logo" class="logo" src="./assets/ForkPepe.jpg" width="125" height="125" />
+  <!-- Header of the page -->
+  <div class="wrapper">
+    <Header msg="Dotnetbotnet Overview" />
+  </div>
 
-    <div class="wrapper">
-      <Index msg="Dotnetbotnet Overview" />
-    </div>
-  </header>
+  <!-- Main content section -->
+  <div class="LeftSide">
+    <SectionTitle msg="List of Connected Bots"/>
+    <BotsList></BotsList>
+  </div>
 
-  <main>
-    <BotsList />
-  </main>
 </template>
 
 <style scoped>
-header {
-  line-height: 1.5;
-}
-
-.logo {
-  
-}
-
-@media (min-width: 1024px) {
-  header {
-
-  }
-
-  .logo {
-  
-  }
-
-  header .wrapper {
-  
-  }
+.LeftSide {
+  max-width: 40%;
+  min-width: 40%;
+  margin-left: 1%;
 }
 </style>
