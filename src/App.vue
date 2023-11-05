@@ -6,10 +6,10 @@ import Count from './components/actionssection/count/Count.vue'
 import Params from './components/actionssection/params/Params.vue'
 import Queue from './components/actionssection/queue/Queue.vue'
 import TaskMenu from './components/actionssection/tasks/TaskMenu.vue'
-import BotTermOutput from './components/botoutputsection/BotTermOutput.vue'
-import BotTaskReturns from './components/botoutputsection/BotTaskReturns.vue'
+import BotTermOutput from './components/botoutputsection/BotTermOutputInfo.vue'
+import BotTaskReturns from './components/botoutputsection/BotTaskReturnsInfo.vue'
+import Details from "./components/botoutputsection/detailsInfo.vue"
 import QueueStatus from "./components/waitingqueue/QueueStatus.vue"
-import Details from "./components/botoutputsection/Details.vue"
 </script>
 
 <template>
@@ -30,12 +30,12 @@ import Details from "./components/botoutputsection/Details.vue"
     <div class="botOutputSection">
       <div class="botOutputFlex">
         <div class="leftInner">
-          <Details />
-          <BotTermOutput />
+          <Details /> <!-- details of selected bot from botslist -->
+          <BotTermOutput /> <!-- terminal output to link to selected bot from botslist -->
         </div>
         <div class="rightInner">
-          <BotTaskReturns />
-          <button class="btn btn-outline-danger stopButton">Shutdown</button>
+          <BotTaskReturns /> <!-- task return values to link to selected bot -->
+          <button class="btn btn-danger stopButton">Shutdown</button> <!-- shutdown button to link to selected bot from botslist -->
         </div>
       </div>
     </div>
@@ -97,12 +97,13 @@ import Details from "./components/botoutputsection/Details.vue"
   display: flex;
   flex-direction: column;
   width: 70%;
-  margin: 2% 2%;
+  margin: 1% 2%;
 }
 .horizRightHolder {
   display:flex; 
   width: 100%;
   flex-direction: row;
+  margin-bottom: 3%;;
 }
 .actionsSection {
   height: 21vh;
@@ -127,6 +128,7 @@ import Details from "./components/botoutputsection/Details.vue"
   justify-content: center;
   width: 100%;
   border: 2px solid white;
+  background-color: rgb(0, 0, 0);
   height:72vh;
   margin-top: 0%;
 }
@@ -154,7 +156,8 @@ import Details from "./components/botoutputsection/Details.vue"
 
 .stopButton {
   width: 50%;
-  margin: auto;
+  height: 10%;
+  margin: 10% 24%;
 }
 
 </style>

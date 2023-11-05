@@ -1,5 +1,5 @@
 <script setup>
-import BotTermOutputInformation from './BotTermOutputInformation.vue'
+import BotTermOutputInformation from './BotTermOutputFrame.vue'
 </script>
 
 <template>
@@ -8,7 +8,3 @@ import BotTermOutputInformation from './BotTermOutputInformation.vue'
         --insert the console output of the thing here--
     </BotTermOutputInformation>
 </template>
-
-<style scoped>
-
-</style>
