@@ -4,7 +4,7 @@ import CurrentlyWaitingQueueInformation from './CurrentlyWaitingQueueInformation
 
 <template>
     <CurrentlyWaitingQueueInformation>
-        <template #heading>Cuurently Waiting Queue</template>
+        <template #heading>Curently Waiting Queue</template>
         This be where the details of shit goes, placeholder for now. Queue is such a stupid word.
     </CurrentlyWaitingQueueInformation>
 </template>

@@ -4,7 +4,11 @@ import BotTermOutputInformation from './BotTermOutputInformation.vue'
 
 <template>
     <BotTermOutputInformation>
-        <template #heading>Bot Term Output Information</template>
-        This be where the details of shit goes, placeholder for now reee
+        <template #heading>Terminal Output</template>
+        --insert the console output of the thing here--
     </BotTermOutputInformation>
 </template>
+
+<style scoped>
+
+</style>

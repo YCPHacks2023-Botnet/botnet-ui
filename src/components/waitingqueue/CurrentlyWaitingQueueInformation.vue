@@ -11,14 +11,10 @@
 
 <style scoped>
 .details {
-  width: 100px;
+  width: 25%;
+  height: 30%;
   margin: 0 auto; 
-  padding: 15px; 
-  margin-left: 5px;
-  margin-right: 5px; 
-  margin-top: 5px;
-  margin-bottom: 5px;
-  text-align: center;
-  background-color: lightblue;
+  padding: 20px; 
+  background-color: green;
 }
 </style>
